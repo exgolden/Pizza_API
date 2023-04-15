@@ -201,11 +201,6 @@ async def delete_an_order(id:int, Authorize:AuthJWT=Depends()):
     session.commit
     return order_to_delete
 
-
-
-
-
-
 """
     Que pasa si no encuentra al usuario a la hora de poner una orden: manda un "token invalido" ✅
    
